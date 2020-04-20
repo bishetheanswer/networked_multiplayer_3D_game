@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - CreateRoomMenu
     - CurrentRoomCanvas
     - GameSettings
+    - LeaveRoomMenu
     - MasterManager
     - PlayerListing
     - PlayerListingsMenu
@@ -103,89 +104,91 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11166}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 11202}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11330}
     - Class: 114
       Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11522}
+      Script: {instanceID: 11410}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11524}
     - Class: 114
-      Script: {instanceID: 11626}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 11874}
+      Script: {instanceID: 11796}
     - Class: 114
-      Script: {instanceID: 11948}
+      Script: {instanceID: 11876}
     - Class: 114
-      Script: {instanceID: 12038}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 11968}
     - Class: 114
-      Script: {instanceID: 12146}
+      Script: {instanceID: 12042}
     - Class: 114
-      Script: {instanceID: 12168}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12336}
+      Script: {instanceID: 12172}
     - Class: 114
-      Script: {instanceID: 12360}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12392}
+      Script: {instanceID: 12250}
     - Class: 114
-      Script: {instanceID: 12450}
+      Script: {instanceID: 12342}
     - Class: 114
-      Script: {instanceID: 12462}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12398}
     - Class: 114
-      Script: {instanceID: 12550}
+      Script: {instanceID: 12456}
     - Class: 114
-      Script: {instanceID: 12562}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12756}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 12514}
     - Class: 114
-      Script: {instanceID: 12776}
+      Script: {instanceID: 12552}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 12560}
     - Class: 114
-      Script: {instanceID: 12912}
+      Script: {instanceID: 12572}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 12766}
     - Class: 114
-      Script: {instanceID: 13334}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 13364}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13372}
+      Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 14750}
+      Script: {instanceID: 12870}
     - Class: 114
-      Script: {instanceID: 15578}
+      Script: {instanceID: 12894}
     - Class: 114
-      Script: {instanceID: 15818}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 17632}
+      Script: {instanceID: 13266}
     - Class: 114
-      Script: {instanceID: 17638}
+      Script: {instanceID: 13348}
     - Class: 114
-      Script: {instanceID: 17644}
+      Script: {instanceID: 13378}
     - Class: 114
-      Script: {instanceID: 18564}
+      Script: {instanceID: 13386}
     - Class: 114
-      Script: {instanceID: 18650}
+      Script: {instanceID: 13410}
+    - Class: 114
+      Script: {instanceID: 15724}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -253,6 +256,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: e830d08950c3253a22792e81e418e03e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomListingsMenu
   - hash:
       serializedVersion: 2
       Hash: 4f417ca0a3b31b376eb402726c240bde
@@ -699,6 +708,12 @@ ScriptsOnlyBuild:
     className: BestRegionInPrefsProperty
   - hash:
       serializedVersion: 2
+      Hash: 986617f6326feed53ec49f05b68e382c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SingletonReferences
+  - hash:
+      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -837,6 +852,12 @@ ScriptsOnlyBuild:
     className: CountOfPlayersInRoomProperty
   - hash:
       serializedVersion: 2
+      Hash: af0537dabf7072720b1497b88b975216
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerListing
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -949,6 +970,18 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.PunBasics
     className: PlayerUI
+  - hash:
+      serializedVersion: 2
+      Hash: f91958f9a0849ecfa80c9acbc492d38d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerListingsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: af0537dabf7072720b1497b88b975216
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomListing
   - hash:
       serializedVersion: 2
       Hash: a8a4fba96bef6fccf7bb4be2f06c16b6
@@ -1131,10 +1164,22 @@ ScriptsOnlyBuild:
     className: ScoreHelper
   - hash:
       serializedVersion: 2
+      Hash: eb9fc5f9112bb1c277a0776be6250875
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CurrentRoomCanvas
+  - hash:
+      serializedVersion: 2
       Hash: e80cf4684910fdd7f091d85a19a93603
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.SlotRacer
     className: SlotLanes
+  - hash:
+      serializedVersion: 2
+      Hash: c5dfbf3100d0c37a8a543b21f75233b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateOrJoinRoomCanvas
   - hash:
       serializedVersion: 2
       Hash: a8a4fba96bef6fccf7bb4be2f06c16b6
@@ -1467,6 +1512,12 @@ ScriptsOnlyBuild:
     className: UserIdUiForm
   - hash:
       serializedVersion: 2
+      Hash: 5b39a468f86165cf32398c1dca665a52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RoomsCanvases
+  - hash:
+      serializedVersion: 2
       Hash: c656dcc13ae391b68d594cc8f9c590b0
     assemblyName: PhotonUnityNetworking.Demos.dll
     namespaceName: Photon.Pun.Demo.Cockpit
@@ -1485,52 +1536,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: e830d08950c3253a22792e81e418e03e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RoomListingsMenu
-  - hash:
-      serializedVersion: 2
-      Hash: af0537dabf7072720b1497b88b975216
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RoomListing
-  - hash:
-      serializedVersion: 2
-      Hash: 986617f6326feed53ec49f05b68e382c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SingletonReferences
-  - hash:
-      serializedVersion: 2
-      Hash: c5dfbf3100d0c37a8a543b21f75233b0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CreateOrJoinRoomCanvas
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: CurrentRoomCanvas
-  - hash:
-      serializedVersion: 2
-      Hash: 5b39a468f86165cf32398c1dca665a52
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: RoomsCanvases
-  - hash:
-      serializedVersion: 2
-      Hash: af0537dabf7072720b1497b88b975216
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerListing
-  - hash:
-      serializedVersion: 2
-      Hash: f91958f9a0849ecfa80c9acbc492d38d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerListingsMenu
+    className: LeaveRoomMenu
   platform: 5
   scenePathNames:
   - Assets/Scenes/Rooms.unity

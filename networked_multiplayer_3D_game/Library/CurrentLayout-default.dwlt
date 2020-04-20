@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 121
+  controlID: 65
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,10 +96,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 708, y: 492}
+  m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 36
+  controlID: 42
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,8 +119,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 37
+  controlID: 43
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 38
+  controlID: 44
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -589,20 +589,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Main Menu/UI/Rooms
+    - Assets/Scripts/UI/Rooms
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Prefabs/Main Menu/UI/Rooms
+  - Assets/Scripts/UI/Rooms
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\namas\Documents\GitHub\networked_multiplayer_3D_game\networked_multiplayer_3D_game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 64}
-    m_SelectedIDs: c43c0000
-    m_LastClickedID: 15556
-    m_ExpandedIDs: 00000000423700004437000046370000483700004a370000183800001c3800001e3800002238000000ca9a3b
+    scrollPos: {x: 0, y: 28}
+    m_SelectedIDs: cc380000
+    m_LastClickedID: 14540
+    m_ExpandedIDs: 00000000e8370000ea370000ec370000ee370000f0370000be380000c4380000ca38000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -630,7 +630,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000423700004437000046370000483700004a370000
+    m_ExpandedIDs: 00000000e8370000ea370000ec370000ee370000f0370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,7 +755,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 52d1ffff72d1ffff14d3fffff8edfffffaedfffffeedffff00eeffff08eeffff0ceeffff4eefffff6eefffff14f1ffff70fbffff443600006c36000094360000a8360000c0360000c4360000d4360000c4420000ec42000056430000
+      m_ExpandedIDs: 50f2ffff70f2ffff18f4ffff70fbffffa8360000423700005c370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
