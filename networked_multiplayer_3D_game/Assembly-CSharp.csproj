@@ -52,8 +52,16 @@
      <Compile Include="Assets\Scripts\Managers\ScriptableObjectSingleton.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Player_Movement.cs" />
+     <Compile Include="Assets\Scripts\SingletonReferences.cs" />
      <Compile Include="Assets\Scripts\TestConnect.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\CreateOrJoinRoomCanvas.cs" />
      <Compile Include="Assets\Scripts\UI\Rooms\CreateRoomMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\CurrentRoomCanvas.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\PlayerListing.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\PlayerListingsMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\RoomListing.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\RoomListingsMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\Rooms\RoomsCanvases.cs" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
